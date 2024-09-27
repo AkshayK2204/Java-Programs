@@ -11,7 +11,7 @@ public class ArrayListDemo {
         oddNum.add(5);
         oddNum.add(7);
         oddNum.add(9);
-        System.out.println(oddNum.toString());
+        System.out.println(oddNum);
 
         ArrayList<Integer> evenNum = new ArrayList<>();
         evenNum.add(2);
@@ -19,7 +19,7 @@ public class ArrayListDemo {
         evenNum.add(6);
         evenNum.add(8);
         evenNum.add(10);
-        System.out.println(evenNum.toString());
+        System.out.println(evenNum);
 
         ArrayList<Integer> Num = new ArrayList<>();
         Num.addAll(oddNum);
